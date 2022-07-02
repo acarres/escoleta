@@ -123,9 +123,19 @@ footer ul li a:hover{
     color: #DDD;
 }
 /*SECTIONS*/
+
 /*MAIN*/
 section.main{
     background-image: url('images/shape.gif'),url('images/noies_corrents01.jpg') ;
+    background-repeat: no-repeat;
+    background-size: auto, cover;
+    background-position: bottom left, top left;
+    height: 100vh;
+    padding: 0 20px;
+}
+
+section.main.historia{
+    background-image: url('images/shape.gif'),url('images/historia.jpg') ;
     background-repeat: no-repeat;
     background-size: auto, cover;
     background-position: bottom left, top left;
@@ -172,13 +182,7 @@ section.main  .main-content .botton:hover{
 }
 
 /*PRESENTATION*/
-section.presentation{
-    max-width: 1024px;
-    margin: 0 auto;
-}
-
-/*OBJECTIVES*/
-section.objectives{
+section.content{
     max-width: 1024px;
     margin: 0 auto;
 }
@@ -188,14 +192,13 @@ section ul{
 
 }
 section li{
-    max-width: 1024px;
-    margin: 0 auto;
     list-style-type: none;
     background: url('images/list-icon.gif');
     background-repeat: no-repeat;
     background-position: left 5px;
     padding-left: 20px;
     margin-bottom: 15px;
+    line-height: 1.5;
 }
 
 /*HOW WE WORKS*/
@@ -248,11 +251,6 @@ section.howweworks .card.health h3{
 
 
 /*SCHOOLS*/
-section.schools{
-    max-width: 1024px;
-    margin: 0 auto;
-}
-
 section.schools .cards{
     display: flex;
     justify-content: space-between;
