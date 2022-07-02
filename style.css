@@ -30,6 +30,7 @@ header{
     background-color: #fff;
     width: 100%;
     display: flex;
+    justify-content: space-between;
 }
 
 header .logo img{
@@ -337,61 +338,61 @@ section.content-section{
     width: 48%;
 }
 
-
+.menu_checkbox{display: none;}
+.menu_checkbox_label{display: none;}
 @media screen and (max-width: 860px) {
 /*HEADER*/
-/*
-header nav {
-    background-color: rgba(255, 255, 255, 0.8);
-    display: block;
-    width: 50%;
-    height: 100vh;
-    position: absolute;
-    right: 0;
-    
-}
-header nav ul.menu {
-    width: 100%;
-    display: block;
-    padding: 40px 0 0 40px;
-}
+    header nav {
+        background-color: rgba(255, 255, 255, 0.8);
+        display: none;
+        width: 50%;
+        height: 100vh;
+        position: absolute;
+        right: 0;
+        top:75px
+        
+    }
 
-header nav ul.menu li{
-    padding: 5px 0;
-}
-header nav ul.menu li a{
-    font-size: 18px;
-}
+    .menu_checkbox_label{    
+        display: inline;
+        font-size: 30px;
+        padding: 10px;
+    }
+    .menu_checkbox:checked ~ nav{display: inline;}
 
-header nav ul.menu li a:hover, header nav ul.menu li a:focus {
+    header nav ul.menu {
+        width: 100%;
+        display: block;
+        padding: 0 0 0 40px;
+    }
 
-}
+    header nav ul.menu li{
+        padding: 5px 0;
+    }
+    header nav ul.menu li a{
+        font-size: 18px;
+    }
 
-header nav ul.menu ul.submenu{
-    padding:0 0 0 10px;
-    position: relative;
-    z-index: 9999;
-    background-color: transparent;
-    list-style-type: none;
-    width: 200px;
-    display: none;
-}
+    header nav ul.menu ul.submenu{
+        padding:0 0 0 10px;
+        position: relative;
+        z-index: 9999;
+        background-color: transparent;
+        list-style-type: none;
+        width: 200px;
+        display: none;
+    }
 
-header nav ul.menu ul.submenu li{
-margin-bottom: 5px;
-}
-header nav ul.menu li:hover > ul.submenu {
-    display: block;
-}
-*/
-
-
-
-
-
+    header nav ul.menu ul.submenu li{
+    margin-bottom: 5px;
+    }
+    header nav ul.menu li:hover > ul.submenu {
+        display: block;
+    }
 
     section.main .main-content{
         width: 100%;
+        text-align: center;
     }
 
     .content-section-wrapper.two-cols{
