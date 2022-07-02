@@ -342,6 +342,10 @@ section.content-section{
 .menu_checkbox_label{display: none;}
 @media screen and (max-width: 860px) {
 /*HEADER*/
+section.main .main-content {
+    margin-top: 80px;
+
+}
     header nav {
         background-color: rgba(255, 255, 255, 0.8);
         display: none;
