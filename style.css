@@ -343,7 +343,7 @@ section.content-section{
 @media screen and (max-width: 860px) {
 /*HEADER*/
 section.main .main-content {
-    margin-top: 50px;
+    margin-top: 40px;
 
 }
     header nav {
